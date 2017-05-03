@@ -1,14 +1,16 @@
-var numerPrzycisku = 1;
+var a = 2,
+	b = 3,
+	value = (a*a)+(2*a*b)-(b*b);
+console.log('Wynik dzia³ania wynosi: ' + value);
 
-switch(numerPrzycisku) {
-  case 1:
-    console.log(‘Zmieñ kolor strony.’)
-  case 2:
-    console.log(‘Zagraj melodyjkê.’)
-  case 3:
-    console.log(‘Wyœwietl wiadomoœæ.’)
+if (value >= 1) {
+	console.log('Wynik dodatni');
+} else if (value <= -1) {
+	console.log('Wynik ujemny');
+}
 
-
-  default:
-    console.log('Ten przypadek siê wykona³, bo nie ma break\'a')
+if (value == 0) {
+	console.log('Wynik równy 0!');
+} else if (value != 0) {
+	console.log('Wynik ró¿ny od 0!');
 }

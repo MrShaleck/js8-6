@@ -4,11 +4,11 @@ var a = 2,
 console.log('Wynik działania wynosi: ' + value);
 
 if(value == 0){
-    // zero
+    console.log('Wynik równy zero') // zero
 }
 else if(value > 0){
-    // dodatnie
+    console.log('Wynik dodatni')// dodatnie
 }
 else {
-    // ujemne
+    console.log('Wynik ujemny')// ujemne
 }
